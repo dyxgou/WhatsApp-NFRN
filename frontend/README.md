@@ -1,8 +1,5 @@
----
-title : "WhatsApp NFRN"
----
 
 
-# This is a WhatsApp Clone Full Stack
+# This is the frontend of the WhatsApp Clone
 
 This build have a stack with MongoDB, Fastify, React with NextJS and NodeJS.
