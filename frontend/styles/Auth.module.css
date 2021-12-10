@@ -1,0 +1,111 @@
+.auth
+{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  background-color: var(--blackOne);
+  align-items: center;
+  justify-content: center;
+}
+
+.auth__card
+{
+  width: 80vw;
+  height: 80vh;
+  background-color: var(--blackThree);
+  border-radius: 60px;
+  box-shadow: var(--shadow);
+  display: flex;
+  padding: 15px;
+  align-items: center;
+  font-family: var(--chatFont);
+  flex-direction: column;
+}
+
+.auth__titleInput
+{
+  color: var(--greenOne);
+  transition: .5s;
+  margin: 10px;
+}
+
+.auth__title
+{
+  color: var(--greenOne);
+  transition: .5s;
+  margin: 10px;
+}
+
+.auth__title:hover
+{
+  text-decoration-line: underline;
+}
+
+
+
+.auth__form 
+{
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  height: min-content;
+}
+
+.auth__form > input
+{
+  width: 40vw;
+  color: white;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  background-color: var(--blackOne);
+  margin-bottom: 70px;
+  padding: 15px;
+  border-radius: 30px;
+  box-shadow: var(--shadow);
+  text-align: center;
+  font-family: var(--chatFont);
+}
+
+@media (max-height : 720px) 
+{
+  .auth__titleInput
+  {
+    display: none;
+  }
+  .auth__form > input
+  {
+    margin-bottom: 40px;
+  }
+}
+
+.auth__form > button
+{
+  font-family: var(--fontThree);
+  font-size: 18px;
+  width: 30vw;
+  border: none;
+  outline: none;
+  padding: 15px;
+  border-radius: 30px;
+  box-shadow: var(--shadow);
+  transition: .5s;
+  cursor: pointer;
+}
+
+
+.auth__buttonEnable
+{
+  color: var(--blackThree);
+  background-color: var(--greenOne);
+}
+
+
+.auth__buttonDisenable
+{
+  color: var(--greenOne);
+  background-color: var(--blackThree);
+}

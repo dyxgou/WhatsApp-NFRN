@@ -1,0 +1,27 @@
+
+
+.icon
+{
+  height: 60px;
+  width: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--gray);
+  transition: .5s;
+  padding: 15px;
+  cursor: pointer;
+}
+
+.icon__button
+{
+  border-radius: 100%;
+  width: 35px;
+  height: 35px;
+
+}
+
+.icon__button:hover
+{
+  background-color: var(--blackOne);
+}

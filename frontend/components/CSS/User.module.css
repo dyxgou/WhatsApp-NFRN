@@ -1,0 +1,60 @@
+.user
+{
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  cursor: pointer;
+  border-radius: 60px;
+  transition: .5s;
+  margin-bottom: 10px;
+}
+
+.user:hover
+{
+  background-color: var(--blackOne);
+  margin: 20px 0;
+}
+
+.user__textContainer
+{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+
+.user__text
+{
+  font-family: var(--font);
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.user__name 
+{
+  font-family: var(--fontTwo);
+  color: white;
+  font-size: 18px;
+}
+
+
+.user__messages
+{
+  display: flex;
+  align-items: center; 
+  color: var(--gray);
+  font-size: 15px;
+}
+
+.user__messages > span
+{
+  color: var(--blackThree);
+  margin-right: 10px;
+  background-color: var(--greenOne);
+  font-size: 12px;
+  padding: 5px;
+  border-radius: 30px;
+}

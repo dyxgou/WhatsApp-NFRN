@@ -1,0 +1,8 @@
+.userChat
+{
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--blackOne);
+  font-family: var(--font);
+  display: flex;
+}

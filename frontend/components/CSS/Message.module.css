@@ -1,0 +1,49 @@
+.message
+{
+  color: white;
+  font-family: var(--chatFont);
+  border-radius: 60px;
+  background-color: var(--blackOne);
+  padding: 15px 25px;
+  box-shadow: var(--shadow);
+  width: fit-content;
+  transition: .5s;
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.message__received
+{
+  margin-left: auto;
+  background-color: var(--greenMessage);
+}
+
+.message__author 
+{
+  font-size: 13px;
+  color: var(--authorColor);
+  opacity: 0;
+  display: none;
+  position: absolute;
+}
+
+.message__timestamp
+{
+  font-size: 12px;
+  color: var(--gray);
+  right: 0;
+  bottom: 0;
+}
+
+.message:hover
+{
+  padding-top: 25px;
+  padding-right: 55px;
+}
+
+.message:hover > .message__author
+{
+  top: 10px;
+  display: block;
+  opacity: 1;
+}

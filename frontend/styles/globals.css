@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+2:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+*
+{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+:root
+{
+  --greenOne : #00bfa5 ; 
+  --blackOne : #262d31 ; 
+  --blackTwo : #2a2f32 ;
+  --blackThree : #131c21 ; 
+  --gray : #999c9f ; 
+  --font : 'Roboto', sans-serif;
+  --fontTwo : 'Montserrat', sans-serif;
+  --chatFont : 'M PLUS 2', sans-serif;
+  --greenMessage : #056162;
+  --authorColor : #67c1e3 ; 
+  --shadow : 4px 4px 15px 4px rgba(0, 0, 0, 0.288);
+  --fontThree : 'Outfit', sans-serif;
+}
+
+
+::-webkit-scrollbar
+{
+  display: none;
+}
